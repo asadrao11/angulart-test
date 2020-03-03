@@ -12,6 +12,7 @@ phases:
     commands:
       - echo Build started...
       - ng build --prod
+      - npm install express path --save
 artifacts:
   files:
     - dist/**/*
