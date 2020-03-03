@@ -18,3 +18,4 @@ artifacts:
   files:
     - dist/**/*
     - server.js
+    - package.json
