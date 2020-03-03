@@ -7,7 +7,6 @@ phases:
     commands:
       - echo Installing angular cli...
       - npm install -g @angular/cli
-      - yarn add @angular-devkit/build-angular --dev
   build:
     commands:
       - echo Build started...
@@ -18,3 +17,4 @@ artifacts:
   files:
     - dist/**/*
     - server.js
+    - package.json
